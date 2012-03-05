@@ -1,0 +1,26 @@
+Global setup:
+ Set up git
+  git config --global user.name "Henry Ticona Palli"
+  git config --global user.email hticona84@hotmail.com
+Add your public key
+      
+ Next steps:
+  mkdir Tico
+  cd Tico
+  git init
+  touch README
+  git add README
+  git commit -m 'first commit'
+  git remote add origin git@github.com:axetico/Tico.git
+  git push -u origin master
+      
+ Existing Git Repo?
+  cd existing_git_repo
+  git remote add origin git@github.com:axetico/Tico.git
+  git push -u origin master
+      
+ Importing a Subversion Repo?
+  Click here
+      
+ When you're done:
+  Continue
